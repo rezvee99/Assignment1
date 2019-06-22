@@ -1,0 +1,127 @@
+/* rESET */
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: fa;
+    src: url(../font/Font-Awesome-5-Brands-Regular-400.woff);
+}
+
+/* main styling */
+
+html,body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.7em;
+}
+
+a{
+color: #333;
+text-decoration: none;
+}
+
+h1,h2,h3{
+  padding-bottom: 20px;
+
+}
+p{
+  margin: 10px;
+}
+/* Utility class */
+.container{
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+
+}
+
+/* navigation bar*/
+
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a{
+  color: #fff;
+}
+#navbar h1.logo{
+  float: left;
+  padding-top: 20px; 
+}
+
+#navbar ul{
+  list-style: none;
+  float: right;
+} 
+
+#navbar ul li{
+  float: left;
+}
+
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+
+  background: #444;
+  color: #f7c08a;
+
+  
+}
+
+
+
+
+/* home */
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  align-content: center;
+  text-align: end;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: left;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+
+#content{
+    height: auto;
+    border: 1.5px solid black;
+    margin-bottom: 7px;
+    background: #b0c4de;
+}
+#leftContent{
+    height: auto;
+    width: 450px;
+    float: left;   
+    text-align: center;
+}
+
+#rightContent{
+    height: auto;
+    width: 700px;
+    float: right
+}
+
